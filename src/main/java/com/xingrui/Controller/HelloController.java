@@ -24,4 +24,10 @@ public class HelloController {
     public String hello1(){
         return "Hello World1!";
     }
+
+    @RequestMapping("/hello1")
+    @ResponseBody
+    public String hello2(){
+        return "Hello World2!";
+    }
 }
